@@ -1,0 +1,226 @@
+/* ШРИФТЫ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face {
+   font-family: 'Proxima Nova Rg';
+   src: url('../fonts/ProximaNova-Bold.woff2') forma('woff2'),
+      url('../fonts/ProximaNova-Bold.woff') forma('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Proxima Nova Rg';
+   src: url('../fonts/ProximaNova-Regular.woff2')format('woff2'),
+      url('../fonts/ProximaNova-Regular.woff') forma('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+
+/*ОБНУЛЯЮЩИЙ СТИЛь*/
+*,*::before,*::after{
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li{
+	list-style: none;
+}
+a,
+a :visited{
+	text-decoration: none;
+}
+a :hover{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: inherit; font-size: inherit;
+}
+img{
+	vertical-align: top;
+}
+
+/*ДОМАШНЯЯ РАБОТА №4*/
+body{
+	max-width: 940px;
+	min-width: 940px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* ==============HEADER============== */
+.header-nav a{
+	color: rgb(37, 179, 214);
+	line-height: 120%;
+	text-decoration: underline;
+}
+
+
+/* ==============MAIN============== */
+h1{
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: italic;
+	color: rgb(0, 81, 255);
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+h1 span{
+	color: red;
+}
+.main-style p{
+	color: saddlebrown;
+}
+
+
+h2{
+	color: teal;
+	font-size: 25px;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.911);
+}
+#tag{
+	color: rgb(255, 0, 242);
+}
+
+
+.main__tags {
+	font-size: 18px;
+}
+.main__tags #tag{
+	text-decoration: line-through;
+}
+.main__tags li{
+	text-align: center;
+}
+.main__list{
+	font-family: 'Proxima Nova Rg';font-style: oblique;
+}
+.main .selector{
+	background-color: chartreuse;
+}
+.main .text {
+	background: rgb(36,16,0);
+	background: linear-gradient(90deg, rgba(36,16,0,0.8491771708683473) 0%, rgba(9,102,121,0.6110819327731092) 41%, rgba(244,0,255,0.5690651260504201) 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.text+p{
+	color: rgba(0, 23, 100, 0.7);
+}
+#red span{
+	color: red;
+}
+.mark,.green{
+	color: rgb(236, 204, 22);
+	background-color: green;
+}
+.font{
+	font-family: 'Lobster', cursive;
+	text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.9);
+	letter-spacing: 3px;
+	word-spacing: 12px;
+}
+
+.three li{
+	color: Gray;
+}
+.three #three-red{
+	color: red;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 2px;
+}
+.text2{
+	background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-transform: capitalize;
+	letter-spacing: 1.5px;
+	word-spacing: 2px;
+	text-indent: 35px;
+	text-align: justify;
+}
+.text2 + p{
+	color: chartreuse;
+	text-align: justify;
+}
+.text3{
+	color: darkcyan;
+	background-color: darksalmon;
+	font-family: 'Proxima Nova Rg';
+	text-transform: uppercase;
+	text-decoration:underline;
+	line-height: 150%;
+	word-spacing: 10px;
+	text-align: justify;
+}
+.four{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: deeppink;
+	letter-spacing: 5px;
+}
+
+
+.main-important p{
+	font-family: 'Proxima Nova Rg';
+	font-size: 20px;
+	font-weight: 700;
+	color: dimgrey;
+	text-align: justify;
+	font-style: italic;
+}
+.text5 ~ p{
+	color: hotpink;
+}
+.text5 + p{
+	color: green;
+}
+.import li{
+	text-align: center;
+	color: midnightblue;
+	font-weight: 700;
+}
+
+
+.end{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+.end span{
+	color: orangered;
+	font-style: oblique;
+	font-size: 18px;
+	text-decoration: underline;
+}
+#css3{
+	font-size: 18px;
+	font-family: 'Proxima Nova Rg';
+	color: rgba(49, 199, 186, 0.842);
+	text-align: justify;
+	text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/* ==============FOOTER============== */
+
+.footer{
+	font-size: 20px;
+	font-family: 'Proxima Nova Rg';font-style: oblique;
+}
+.footer-paragraph a{
+	color: rgb(0, 255, 115);
+}
+.paragraph > a{
+	color: red;
+}
+.footer-nav{
+	text-align: center;
+}
